@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+["bundle install", "yarn install"].each do |command|
+  puts "\nRunning $(#{command})..."
+  system command
+end
