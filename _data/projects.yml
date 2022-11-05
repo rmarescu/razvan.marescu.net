@@ -1,0 +1,33 @@
+- name: Gumroad
+  url: https://gumroad.com
+  duration: 2021-ongoing
+  description: |-
+    [Gumroad](https://gumroad.com) is a platform that makes it simple to sell online. Since launching in 2011, creators on the platform have sold more than $500M of products. In 2020, the platform processed close to $150M in sales.
+  involvement: Part of a 100% remote team working in an asynchronous environment, I built core product features while fully responsible from scoping and software development to testing and production deployments. Other work involved fixing bugs, addressing technical debt, and code reviews.
+  stack: Ruby on Rails, MySQL, MongoDB, React, TypeScript, HAML, Redis, ElasticSearch, GitHub, AWS, Buildkite, Percy visual testing.
+
+- name: Chit Chats
+  url: https://chitchats.com
+  duration: 2017-2021
+  description: |-
+    [Chit Chats](https://chitchats.com) is a Canadian E-commerce shipping platform helping Canadian entrepreneurs grow their markets through low-cost shipping. Offers integrations with E-commerce platforms like Shopify, Etsy, BigCommerce, WooCommerce
+  involvement: Part of the leadership team, with a focus on software development & data. Worked closely with the CEO, product, design, business development, and other teams to shape up and implement complex initiatives.
+  stack: Ruby on Rails, PostgreSQL, Redis, JavaScript/jQuery, AWS, GitHub, Semaphore CI, Heroku
+
+- name: BlackFriday.com
+  url: https://reinvent.com/projects/black-friday
+  duration: 2012-2016, acquired 2017
+  description: E-commerce and affiliate marketing platform with more than 200 retailers and more than 30 million visitors during November, with peak traffic that passed 40K concurrent users.
+  involvement: |-
+    Project lead for 2 Black Friday seasons.
+
+    Part of the engineering team, lead engineer involved in building core features: affiliate networks microservice, product scrapers, cash back system, custom analytics event tracking, advertising platforms integrations (AdSense, Criteo).
+  stack: Ruby on Rails, PostgreSQL, Redis, JavaScript/jQuery, GitHub, NGNIX, Varnish Cache, AWS, Semaphore CI
+
+- name: Canvus
+  url: https://reinvent.com/projects/canvus
+  duration: 2015-2016, acquired 2018
+  description: |-
+    Custom apparel e-commerce platform and fulfillment for professional marketers, generating $300K in monthly sales.
+  involvement: Part of the development team, involved in building various core features of the platform, including the development of a Shopify app
+  stack: Ruby on Rails, PostgreSQL, Redis, JavaScript/jQuery, React, GitHub, AWS, Semaphore CI

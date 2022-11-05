@@ -6,14 +6,23 @@
 
 title: Razvan Marescu
 email: razvan@marescu.net
-description: Independent software engineer consultant from Vancouver, Canada
+tagline: Software Engineer from Vancouver, Canada
+description: Independent software engineer from Vancouver, Canada
 url: "https://razvan.marescu.net"
-twitter_username: rmarescu
-github_username:  rmarescu
 timezone: America/Vancouver
 
-# Build settings
-theme: minima
+# https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#author-information
+author:
+  github: rmarescu
+  linkedin: rmarescu
+  stackshare: rmarescu
+  strava: rmarescu
+  twitter: rmarescu
+  url: https://razvan.marescu.net
+
+sass:
+  load_paths:
+    - node_modules/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -34,3 +43,10 @@ theme: minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - bin/
+  - CNAME
+  - README.md
+  - package.json
+  - yarn.lock
+

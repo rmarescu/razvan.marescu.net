@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+article > header {
+  margin-bottom: 0;
+}
+
+article > footer {
+  margin-top: 0;
+  padding: calc(var(--block-spacing-vertical) * 0.33) var(--block-spacing-horizontal);
+  font-size: calc(var(--font-size) * 0.8);
+}
+
+.grid-hero {
+  --grid-spacing-horizontal: 2rem;
+
+  img {
+    border-radius: var(--border-radius);
+    max-width: 15rem;
+  }
+
+  @if map-get($breakpoints, "lg") {
+    @media (min-width: map-get($breakpoints, "lg")) {
+      grid-template-columns: max-content 1fr;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "razvan.marescu.net",
+  "version": "0.0.1",
+  "description": "Personal website of Razvan Marescu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmarescu/razvan.marescu.net.git"
+  },
+  "keywords": [
+    "personal website"
+  ],
+  "author": "Razvan Marescu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmarescu/razvan.marescu.net/issues"
+  },
+  "homepage": "https://github.com/rmarescu/razvan.marescu.net#readme",
+  "devDependencies": {
+    "@picocss/pico": "^1.5.6"
+  }
+}

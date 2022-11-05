@@ -1,0 +1,18 @@
+<section id="work" class="container">
+  <h2>Work</h2>
+  {% for project in site.data.projects %}
+    <article>
+      <header>
+        <h3><a href="{{ project.url }}" alt="Visit {{ project.name }}" target="_blank">{{ project.name }}</a></h3>
+        <small>{{ project.duration }}</small>
+      </header>
+      <main>
+        <p>{{ project.description | markdownify }}</p>
+        <p>{{ project.involvement }}</p>
+      </main>
+      <footer>
+        Stack: {{ project.stack }}
+      </footer>
+    </article>
+  {% endfor %}
+</section>

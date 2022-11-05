@@ -1,0 +1,12 @@
+<section id="testimonials" class="container">
+  <article class="grid grid-testimonials">
+    {% for testimonial in site.data.testimonials %}
+      <blockquote>
+        {{ testimonial.quote }}
+        <footer>
+          <cite>{{ testimonial.cite }}</cite>
+        </footer>
+      </blockquote>
+    {% endfor %}
+  </article>
+</section>
