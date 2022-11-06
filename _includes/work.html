@@ -3,13 +3,13 @@
   {% for project in site.data.projects %}
     <article>
       <header>
-        <h3><a href="{{ project.url }}" alt="Visit {{ project.name }}" target="_blank">{{ project.name }}</a></h3>
+        <h3><a href="{{ project.url }}" title="Visit {{ project.name }}" target="_blank">{{ project.name }}</a></h3>
         <small>{{ project.duration }}</small>
       </header>
-      <main>
-        <p>{{ project.description | markdownify }}</p>
-        <p>{{ project.involvement }}</p>
-      </main>
+      <div>
+        {{ project.description | markdownify }}
+        {{ project.involvement | markdownify}}
+      </div>
       <footer>
         Stack: {{ project.stack }}
       </footer>

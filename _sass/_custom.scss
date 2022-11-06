@@ -8,13 +8,26 @@ article > header {
   margin-bottom: 0;
 }
 
-article > footer {
-  margin-top: 0;
-  padding: calc(var(--block-spacing-vertical) * 0.33) var(--block-spacing-horizontal);
-  font-size: calc(var(--font-size) * 0.8);
+article {
+  div {
+    display: grid;
+    gap: var(--typography-spacing-vertical);
+    margin: var(--typography-spacing-vertical) 0;
+
+    & > * {
+      margin: 0;
+    }
+  }
+
+  footer {
+    margin-top: 0;
+    padding: calc(var(--block-spacing-vertical) * 0.33) var(--block-spacing-horizontal);
+    font-size: calc(var(--font-size) * 0.8);
+  }
 }
 
 .grid-hero {
+  align-items: center;
   --grid-spacing-horizontal: 2rem;
 
   img {
