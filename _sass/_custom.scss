@@ -44,3 +44,48 @@ article {
     }
   }
 }
+
+%icon {
+  content: "\00a0";
+  display: inline-block;
+  background: currentColor;
+  min-height: 1em;
+  width: 1em;
+  mask-position: 50% 50%;
+  mask-size: 120%;
+  mask-repeat: no-repeat;
+  flex-shrink: 0;
+
+  &:after {
+    content: "\00a0";
+  }
+}
+
+.icon {
+  @extend %icon;
+}
+
+$icons: ["envelope"];
+
+@each $name in $icons {
+  .icon-#{$name} {
+    mask-image: inline("assets/images/icons/#{$name}.svg");
+  }
+}
+
+%brand-icon {
+  @extend %icon;
+  mask-size: 100%;
+}
+
+.brand-icon {
+  @extend %brand-icon;
+}
+
+$brand-icons: ["github", "linkedin", "strava", "twitter"];
+
+@each $name in $brand-icons {
+  .brand-icon-#{$name} {
+    mask-image: inline("assets/images/icons/brands/#{$name}.svg");
+  }
+}

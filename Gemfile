@@ -1,7 +1,8 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
+gem "jekyll"
 
 group :jekyll_plugins do
-  gem 'jekyll-seo-tag'
+  gem "jekyll-postcss-v2"
+  gem "jekyll-seo-tag"
 end

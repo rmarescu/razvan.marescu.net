@@ -13,12 +13,12 @@ timezone: America/Vancouver
 
 # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#author-information
 author:
+  name: Razvan Marescu
   github: rmarescu
   linkedin: rmarescu
   stackshare: rmarescu
   strava: rmarescu
   twitter: rmarescu
-  url: https://razvan.marescu.net
 
 sass:
   load_paths:
@@ -45,8 +45,9 @@ sass:
 #   - vendor/ruby/
 exclude:
   - bin/
+  - assets/images/icons/
   - CNAME
   - README.md
   - package.json
+  - postcss.config.js
   - yarn.lock
-

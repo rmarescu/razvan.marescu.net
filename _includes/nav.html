@@ -3,7 +3,30 @@
     <li><strong>{{ site.title | escape }}</strong></li>
   </ul>
   <ul>
-    <li><a href="#work" class="secondary">Work</a></li>
-    <li><a href="mailto:{{ site.email }}" class="secondary">Contact</a></li>
+    <li>
+      <a href="https://github.com/{{ site.author.github }}" title="GitHub profile of {{ site.author.name }}" class="secondary" target="_blank">
+        <span class="brand-icon brand-icon-github"></span>
+      </a>
+    </li>
+    <li>
+      <a href="https://linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn profile of {{ site.author.name }}" class="secondary" target="_blank">
+        <span class="brand-icon brand-icon-linkedin"></span>
+      </a>
+    </li>
+    <li>
+      <a href="https://strava.com/athletes/{{ site.author.strava }}" title="Strava profile of {{ site.author.name }}" class="secondary" target="_blank">
+        <span class="brand-icon brand-icon-strava"></span>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/{{ site.author.twitter }}" title="Twitter profile of {{ site.author.name }}" class="secondary" target="_blank">
+        <span class="brand-icon brand-icon-twitter"></span>
+      </a>
+    </li>
+    <li>
+      <a href="mailto:{{ site.email }}" title="Contact {{ site.author.name }} via email" class="secondary">
+        <span class="icon icon-envelope"></span>
+      </a>
+    </li>
   </ul>
 </nav>
