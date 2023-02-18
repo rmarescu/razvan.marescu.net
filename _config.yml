@@ -5,10 +5,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Razvan Marescu
-email: razvan@marescu.net
+email: razvan@marescu.com
 tagline: Software Engineer from Vancouver, Canada
 description: Independent software engineer from Vancouver, Canada
-url: "https://razvan.marescu.net"
+url: "https://razvan.marescu.com"
 timezone: America/Vancouver
 
 # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#author-information

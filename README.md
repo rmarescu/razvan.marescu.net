@@ -1,2 +1,1 @@
-# [My public website](https://razvan.marescu.net)
-
+# [My public website](https://razvan.marescu.com)

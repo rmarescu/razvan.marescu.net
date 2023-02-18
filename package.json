@@ -1,5 +1,5 @@
 {
-  "name": "razvan.marescu.net",
+  "name": "razvan.marescu.com",
   "version": "0.0.1",
   "description": "Personal website of Razvan Marescu",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmarescu/razvan.marescu.net.git"
+    "url": "git+https://github.com/rmarescu/razvan.marescu.com.git"
   },
   "keywords": [
     "personal website"
@@ -16,9 +16,9 @@
   "author": "Razvan Marescu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rmarescu/razvan.marescu.net/issues"
+    "url": "https://github.com/rmarescu/razvan.marescu.com/issues"
   },
-  "homepage": "https://github.com/rmarescu/razvan.marescu.net#readme",
+  "homepage": "https://github.com/rmarescu/razvan.marescu.com#readme",
   "devDependencies": {
     "@picocss/pico": "^1.5.6",
     "autoprefixer": "^10.4.13",
