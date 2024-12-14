@@ -36,7 +36,7 @@ jobs:
 
       - name: Set up Pages
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v3
 
       - name: Set up Yarn
         run: |
